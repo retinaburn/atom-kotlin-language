@@ -127,18 +127,18 @@
             }
           ]
         }
-        {
-          begin: "\\w+<"
-          end: ">"
-          patterns: [
-            {
-              include: "#types"
-            }
-            {
-              include: "#keywords"
-            }
-          ]
-        }
+        #{
+        #  begin: "\\w+<"
+        #  end: ">"
+        #  patterns: [
+        #    {
+        #      include: "#types"
+        #    }
+        #    {
+        #      include: "#keywords"
+        #    }
+        #  ]
+        #}
         {
           begin: "(#)\\("
           beginCaptures:
